@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CBZ Reader</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-5 form-group">
+          <input class="form-control" type="file" id="cbzFile" />
+          <button class="btn btn-primary" id="prev-chapter" disabled>
+            Prev Chapter
+          </button>
+          
+          <button class="btn btn-primary my-2" id="next-chapter" disabled>
+            Next Chapter
+          </button>
+        </div>
+      </div>
+      <div id="imgContainer" class="justify-content-center text-center mb-3">
+        
+      </div>
+      <div class="container">
+        <div class="justify-content-center text-center">
+          <hr class="bg-white">
+          <label class="text-white-50">This project was made by </label>
+          <a href="https://github.com/ismaksu/" class="btn btn-dark">Github/ismaksu</a>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/js/jszip.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
