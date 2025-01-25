@@ -1,6 +1,7 @@
 # Simple comic book/manga reader.
 A really simple and primitive .cbz reader made without much of thought went into it.
-- Why is it so simple and bad?
+
+> Why is it so simple and bad?
 - : idk, i made it because im bored (oh and also wanted to use JsZip library.)
 
 > Will you develop it further?
@@ -17,3 +18,6 @@ A really simple and primitive .cbz reader made without much of thought went into
 
 > This is not even a big thing to be qualified as a project lmao i could wrote this in 3 minutes.
 - : yea thats exactly what i did
+
+> I saw you mess up the readme file in commit history lmao you are bad
+- : i know, never been good with the .md syntax
